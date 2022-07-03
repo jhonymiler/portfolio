@@ -1,6 +1,9 @@
-
-export default function Home() {
+function Home() {
   return (
-    <h1> Index</h1>
-  )
+    <div className="bg-gray-800">
+      Home
+    </div>
+  );
 }
+
+export default Home;
